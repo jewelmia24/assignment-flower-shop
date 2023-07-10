@@ -98,14 +98,55 @@ section>div>p {
     text-align: center;
     font-size: 12px;
 }
-.social{
+
+.social {
     margin-top: 60px;
 }
-.social-img{
+
+.social-img {
     height: 240px;
     margin-left: 8px;
     border-radius: 5px;
 }
-.social-img-box{
-    margin: 10px 100px 20px 104px;
+
+.social-img-box {
+    margin: 30px 100px 20px 100px;
 }
+
+/* deals related style */
+.deals {
+    background-image: url("../image/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 870px;
+    height: 275px;
+    margin: 60px 116px 20px 108px;
+
+    .deals-title {
+        text-align: center;
+        color: #272727;
+        font-size: 25px;
+        font-weight: 800;
+        padding-top: 80px;
+
+    }
+
+    .deals-offer {
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 10px;
+        padding-top: 0px;
+    }
+    .amount{
+        font-size: 13px;
+    }
+    .deals-input{
+        margin-left: 170px;
+    }
+    .deals-mail{
+        background: #FFF;
+        height: 35px;
+        width: 430px;
+        border-radius: 7px;
+        border-style: none;
+    }
