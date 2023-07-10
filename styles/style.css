@@ -1,0 +1,48 @@
+/* shared related style */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    background: #E55473;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFF;
+}
+/* header related style */
+header>section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+
+    background: rgba(229, 84, 115, 0.10)
+
+}
+
+.head-image {
+    height: 420px;
+    padding: 33px 80px 0px 5px;
+
+}
+
+.flower-heading {
+    margin-left: 100px;
+    gap: 10px;
+     
+
+}
+
+section>div>h3 {
+    color: #272727;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+section>div>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
