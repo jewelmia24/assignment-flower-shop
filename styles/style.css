@@ -252,7 +252,7 @@ section>div>p {
     margin-top: -30px;
     font-size: 12px;
 }
-/* more bonus section */
+/* more bonus related styles */
 .bonus-img-box{
     display: flex;
     justify-content: center;
@@ -281,4 +281,23 @@ section>div>p {
 .more-bonus{
     width: 80%;
     margin-left: 100px;
+}
+/* optional relader styles */
+.optional-img-box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+    width: 79%;
+    height: 230px;
+    margin-left: 124px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 12px;
+    text-align: center;
+}
+.optional-img{
+    height: 60px;
+    width: 60px;
+    padding: 0px 0px 0px 15px;
 }
