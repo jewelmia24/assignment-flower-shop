@@ -248,8 +248,37 @@ section>div>p {
     color: #272727;
     margin: 0px 100px 40px 100px;
     text-decoration-line: underline;
-    color: #272727;
     padding-bottom: 30px;
     margin-top: -30px;
     font-size: 12px;
+}
+/* more bonus section */
+.bonus-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.bonus-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.bonus-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+.customer-dis{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.more-bonus{
+    width: 80%;
+    margin-left: 100px;
 }
