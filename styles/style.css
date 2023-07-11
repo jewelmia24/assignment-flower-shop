@@ -295,6 +295,7 @@ section>div>p {
     color: rgba(39, 39, 39, 0.80);
     font-size: 12px;
     text-align: center;
+    border-radius: 7px;
 }
 .optional-img{
     height: 60px;
