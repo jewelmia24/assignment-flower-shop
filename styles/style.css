@@ -11,10 +11,12 @@ body {
     border-style: none;
     color: #FFF;
 }
+
 .shared-color {
     color: #E55473;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -127,56 +129,127 @@ section>div>p {
     height: 275px;
     margin: 60px 120px 20px 104px;
 }
-    .deals-title {
-        text-align: center;
-        color: #272727;
-        font-size: 25px;
-        font-weight: 800;
-        padding-top: 80px;
 
-    }
+.deals-title {
+    text-align: center;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 80px;
 
-    .deals-offer {
-        color: rgba(39, 39, 39, 0.60);
-        text-align: center;
-        font-size: 10px;
-        padding-top: 0px;
-    }
+}
 
-    .amount {
-        font-size: 13px;
-    }
+.deals-offer {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 10px;
+    padding-top: 0px;
+}
 
-    .deals-input {
-        margin-left: 170px;
-    }
+.amount {
+    font-size: 13px;
+}
 
-    .deals-mail {
-        background: #FFF;
-        height: 35px;
-        width: 430px;
-        border-radius: 7px;
-        border-style: none;
-    }
+.deals-input {
+    margin-left: 170px;
+}
 
-    /* footer related styles */
-    
-    .footer{
-        background: #111010;
-        text-align: center;
-        color: rgba(255, 255, 255, 0.90);
-        height: 240px;
-        margin: 65px 0px 0px 0px;
-        padding-top: 65px;
-    }
-    .footer-title{
-        font-size: 30px;
-    }
-    .footer-dec{
-        font-size: 12px;
-    }
-    .footer-last{
-        color: rgba(255, 255, 255, 0.40);
-        font-size: 10px;
-        margin-top: 20px;
-    }
+.deals-mail {
+    background: #FFF;
+    height: 35px;
+    width: 430px;
+    border-radius: 7px;
+    border-style: none;
+}
+
+/* footer related styles */
+
+.footer {
+    background: #111010;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+    height: 240px;
+    margin: 65px 0px 0px 0px;
+    padding-top: 65px;
+}
+
+.footer-title {
+    font-size: 30px;
+}
+
+.footer-dec {
+    font-size: 12px;
+}
+
+.footer-last {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+/* bonus section related style */
+.featured-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 22px;
+
+    margin-top: 100px;
+
+}
+
+.featured-dec {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+}
+
+.featured-img {
+    height: 250px;
+    padding: 69px 0px 0px 40px;
+}
+
+.pink-flower {
+    background: rgba(167, 33, 98, 0.15);
+    height: 320px;
+    width: 280px;
+    margin-left: 20px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.red-flower {
+    background: rgba(5, 151, 160, 0.15);
+    height: 320px;
+    width: 280px;
+    margin-left: 20px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.yellow-flower {
+
+    background: rgba(71, 125, 17, 0.15);
+    height: 320px;
+    width: 280px;
+    margin-left: 20px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.flower-tree {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: #272727;
+    margin: 0px 100px 40px 100px;
+    text-decoration-line: underline;
+    color: #272727;
+    padding-bottom: 30px;
+    margin-top: -30px;
+    font-size: 12px;
+}
